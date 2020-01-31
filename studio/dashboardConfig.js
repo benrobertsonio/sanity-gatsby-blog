@@ -42,6 +42,16 @@ export default {
       name: 'document-list',
       options: { title: 'Recent blog posts', order: '_createdAt desc', types: ['post'] },
       layout: { width: 'medium' }
+    },
+    {
+      name: 'gatsby',
+      options: {
+        instances: [
+          {
+            instanceUrl: 'https://sanity-gatsby-blog-7661634284.gtsb.io/'
+          }
+        ]
+      }
     }
   ]
 }
