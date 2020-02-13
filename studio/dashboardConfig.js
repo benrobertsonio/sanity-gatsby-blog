@@ -48,7 +48,7 @@ export default {
       options: {
         instances: [
           {
-            instancesUrl: 'https://sanity-gatsby-blog-7661634284.gtsb.io/'
+            instanceUrl: 'https://sanity-gatsby-blog-7661634284.gtsb.io/'
           }
         ]
       }
